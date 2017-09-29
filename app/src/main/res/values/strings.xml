@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">AskNTake</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_favorite">favorite</string>
+    <string name="action_edit">edit</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="default_location_alert_msg">Keep this as My Location? Yes or No </string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">HOME</string>
+    <string name="action_category">CATEGORY</string>
+    <string name="action_add">ADD</string>
+    <string name="action_categories">CATEGORIES</string>
+    <string name="action_messages">MESSAGES</string>
+    <string name="action_profile">MY PROFILE</string>
+    <string name="service_name">Service:</string>
+    <string name="provider_name">Provider:</string>
+    <string name="reviews">Reviews:</string>
+    <string name="location_name">Location:</string>
+    <string name="delete_alert">Do you want to remove this product from favorites list?</string>
+    <string name="delete_service_alert">Do you want to delete this product from list?</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_password"><u>I forgot my password</u></string>
+    <string name="usepicture"><b>Use a Picture from...</b></string>
+    <string name="report_listing_success_text">Your feedback is really valuable to the Ask-n-Take community.</string>
+    <string name="type_your_message_here_">Type your message here...</string>
+    <string name="str_atv_places">Enter Place Here</string>
+
+
+    <string-array name="array_name">
+        <item>Choose category</item>
+        <item>Agents</item>
+        <item>Automobile and Electric services</item>
+        <item>Baby care</item>
+        <item>Dance &amp; Music</item>
+        <item>Education &amp; Training/Tuitions</item>
+        <item>Event Planners</item>
+        <item>Events (Nearby)</item>
+        <item>Fashion &amp; Beauty</item>
+        <item>Food</item>
+        <item>Professional Business services</item>
+        <item>Jobs</item>
+        <item>Market Place</item>
+        <item>Religious</item>
+        <item>Professional Photography</item>
+        <item>Rentals</item>
+        <item>Rides</item>
+    </string-array>
+    <string-array name="agents">
+        <item>Matrimonial agents</item>
+        <item>Travel agents</item>
+    </string-array>
+    <string-array name="baby_care">
+        <item>Baby sitting</item>
+        <item>Baby day cares</item>
+    </string-array>
+    <string-array name="education_training">
+        <item>1 – 12</item>
+        <item>Career (Software &amp; other) trainings</item>
+    </string-array>
+    <string-array name="dance_music">
+        <item>Indian classical dance/Music</item>
+        <item>Western dance/Music</item>
+    </string-array>
+    <string-array name="event_planners">
+        <item>Wedding</item>
+        <item>Birthdays and Baby showers</item>
+        <item>DJ’s</item>
+    </string-array>
+    <string-array name="events">
+        <item>Cultural</item>
+        <item>Sports</item>
+        <item>Social</item>
+    </string-array>
+    <string-array name="fashion_beauty">
+        <item>Hair and beauty salons</item>
+        <item>Clothing and stitching</item>
+        <item>Jewelry</item>
+    </string-array>
+    <string-array name="food">
+        <item>Homemade food</item>
+        <item>Restaurants</item>
+        <item>Catering</item>
+    </string-array>
+    <string-array name="professional_business_services">
+        <item>Accountants (CA, Tax filing &amp; Registration)</item>
+        <item>Attorneys (Lawyers)</item>
+        <item>Insurance</item>
+        <item>Finance</item>
+        <item>Realtor</item>
+    </string-array>
+    <string-array name="jobs">
+        <item>Admin</item>
+        <item>IT</item>
+        <item>Non IT</item>
+        <item>Management</item>
+    </string-array>
+    <string-array name="market_place">
+        <item>Fancy items</item>
+        <item>Florists</item>
+        <item>Groceries</item>
+        <item>Meat Market</item>
+    </string-array>
+    <string-array name="religious">
+        <item>Astrologers</item>
+        <item>Priests</item>
+    </string-array>
+    <string-array name="rentals">
+        <item>Single family Homes</item>
+        <item>Room Sharing</item>
+        <item>Commercial and office spaces</item>
+    </string-array>
+    <string-array name="rides">
+        <item>One time rides</item>
+        <item>Daily rides</item>
+    </string-array>
+
+
+    <!--<string-array name="doller_names">
+        <item>INR</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>-->
+    <string-array name="time_am_pm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="time_pm_am">
+        <item>PM</item>
+        <item>AM</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+    <string-array name="event_type">
+        <item>Single Day</item>
+        <item>Multiple Days</item>
+    </string-array>
+    <string-array name="day">
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+        <item>SUN</item>
+
+    </string-array>
+
+    <string-array name="days">
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY</item>
+
+    </string-array>
+
+    <string name="whatsearch">What do you want to Search?</string>
+    <string name="wheresearch">Where do you want to Search?</string>
+    <string name="categories">Categories</string>
+
+    <string name="distance">Distance</string>
+    <string name="mile">Miles</string>
+    <string name="km">Kilometers</string>
+    <string name="near1mile"> Nearby (1 KM)</string>
+    <string name="inarea5mile"> In my area(5 KM)</string>
+    <string name="intown10mile"> In my town or city(10 KM)</string>
+    <string name="for10plusmile"> For (10+ KM)</string>
+    <string name="listedwithin">Listed within</string>
+    <string name="twofourhours">24 hours</string>
+    <string name="sevendays">7 days</string>
+    <string name="threezerodays">30 days</string>
+    <string name="alllistings">All Listings</string>
+
+    <string name="timings">Timings</string>
+
+    <string name="ratings">Ratings</string>
+    <string name="text_my_location">My Location</string>
+    <string name="text_curent_location">Current Location</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="password">PASSWORD</string>
+    <string name="location">LOCATION</string>
+    <string name="email_id">EMAIL</string>
+    <string name="logout">LOGOUT</string>
+    <string name="username">USERNAME</string>
+    <string name="apply">APPLY</string>
+    <string name="reset">RESET</string>
+
+    <!--<string name="all">all</string>
+    <string name="am">AM</string>-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="app_name_text">askntake</string>
+    <string name="start_listing_text">Start listing now</string>
+    <string name="create_account_text">Create an account so buyers can contact you.</string>
+    <string name="never_post_online_msg">We never post anything to facebook</string>
+
+
+    <!--buy and sell filtering-->
+    <string name="price_text">Price</string>
+    <string name="from_text">From</string>
+    <string name="to_text">To</string>
+    <string name="currency_type_text">Currency Type</string>
+
+
+    <string name="pricelowtohigh">Price low to high</string>
+    <string name="pricehightolow">Price high to low</string>
+    <string name="mostrecentpub">Most recently published</string>
+    <string name="sortby">Sort By</string>
+    <string name="shipping">Shipping</string>
+    <string name="negotiable">Negotiable</string>
+    <string name="invoicereceipt">Invoice/Receipt</string>
+    <string name="markedas">Marked as</string>
+    <string name="all_categories">ALL</string>
+    <string name="send">Send</string>
+    <string name="content">Content</string>
+    <string name="subject">subject</string>
+    <string name="email">Email</string>
+    <string name="retry">Retry</string>
+    <string name="network_error_msg">There was a problem connecting with our servers. This couls either be an issue with the internet connectivity or our servers might be misbehaving. Please try again after some time</string>
+    <string name="error">Error</string>
+    <string name="chat">CHAT</string>
+    <string name="savechanges">Save Changes</string>
+    <string name="list_service">List this Service</string>
+    <string name="list_service_req">List this Service Request</string>
+
+
+    <string-array name="select_hours">
+        <item>all</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+
+    <string-array name="timings_change">
+        <item>AM</item>
+        <item>PM</item>
+
+    </string-array>
+
+
+    <string name="facebook_app_id">316187832132590</string>
+
+    <string name="loginwithgoogle">Login with Google</string>
+    <string name="loginwithfb">Login with Facebook</string>
+    <string name="signUp">Sign Up</string>
+    <string name="continuebyemail">Or continue with e-mail</string>
+
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="loading">Loading...</string>
+
+    <!-- price_currency_names-->
+
+    <string-array name="doller_names">
+
+
+        <item>AED</item>
+        <item>ANG</item>
+        <item>ARS</item>
+        <item>ATS</item>
+        <item>AUD</item>
+        <item>BEF</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>COP</item>
+        <item>DEM</item>
+        <item>ESP</item>
+        <item>EUR</item>
+        <item>FRF</item>
+        <item>GBP</item>
+        <item>GRD</item>
+        <item>IDR</item>
+        <item>INR</item>
+        <item>ITL</item>
+        <item>KWD</item>
+        <item>LKR</item>
+        <item>MMK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PHP</item>
+        <item>PTE</item>
+        <item>QAR</item>
+        <item>RUB</item>
+        <item>SAR</item>
+        <item>SGD</item>
+        <item>USD</item>
+        <item>Yen</item>
+        <item>Yuan</item>
+        <item>ZAR</item>
+
+    </string-array>
+
+    <string-array name="categories_list">
+
+
+        <item>Electronics</item>
+        <item>Cars \u0026 Motors</item>
+        <item>Sports \u0026 Liesure</item>
+        <item>Home \u0026 Garden</item>
+        <item>Games \u0026 Consoles</item>
+        <item>Books,Movies \u0026 Music</item>
+        <item>Fashion \u0026 Accessories</item>
+        <item>Baby \u0026 Child</item>
+        <item>Real Estate</item>
+        <item>Appliances</item>
+        <!--   <item>Services</item> -->
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="content_data">
+        <item>Subject</item>
+        <item>Edit or delete profile</item>
+        <item>Edit or delete product</item>
+        <item>Location issues</item>
+        <item>Issues logging in</item>
+        <item>Report User/Spam</item>
+        <item>Suggestion/Feedback</item>
+        <item>Other issues</item>
+    </string-array>
+    <string-array name="categories_list_with_heading">
+
+
+        <item>Choose category</item>
+        <item>Electronics</item>
+        <item>Cars \u0026 Motors</item>
+        <item>Sports \u0026 Liesure</item>
+        <item>Home \u0026 Garden</item>
+        <item>Games \u0026 Consoles</item>
+        <item>Books,Movies \u0026 Music</item>
+        <item>Fashion \u0026 Accessories</item>
+        <item>Baby \u0026 Child</item>
+        <item>Real Estate</item>
+        <item>Appliances</item>
+        <!--   <item>Services</item> -->
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="ex_spin_values">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+
+
+</resources>

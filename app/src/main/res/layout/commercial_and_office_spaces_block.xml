@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/commercial_available_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_commercial_available_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Available From"
+            android:inputType="date" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/commercial_la_no_of_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_commercial_no_of_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Of Rooms"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/commercial_la_total_sq_feet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_commercial_total_sq_feet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Sq.ft"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/commercial_la_asking_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/edit_commercial_asking_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Asking Price"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Spinner
+            android:id="@+id/commercial_spinner_price_type"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:entries="@array/doller_names" />
+    </LinearLayout>
+
+</LinearLayout>

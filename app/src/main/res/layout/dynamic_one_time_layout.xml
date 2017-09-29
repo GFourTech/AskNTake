@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/heading_text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="One Time Rides:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/traveldate_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="value:"
+        android:layout_marginLeft="10dip"
+        android:textSize="18sp" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/traveldate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Date:"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/traveldate_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date value:"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dest_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dest_from_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dest from value"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dest_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dest_to_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dest to value"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/time_leaving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time of Leaving:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/time_leaving_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time leavimg value:"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>-->
+
+</LinearLayout>

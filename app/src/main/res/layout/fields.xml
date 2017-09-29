@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/par_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rest_serv_linear_layout_timings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Spinner
+                android:id="@+id/rest_serv_spinner_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:entries="@array/days">
+
+            </Spinner>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rest_serv_linear_layout_timings1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="7">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/rest_serv_la_timings_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/edit_rest_serv_timings_time"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:hint="time"
+                    android:inputType="time"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/rest_serv_spinner_Timings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/time_am_pm">
+
+            </Spinner>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="To"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/rest_serv_la_timings_time_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/edit_rest_serv_timings_time_to"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:hint="time"
+                    android:inputType="time" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/rest_serv_spinner_Timings_to"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:entries="@array/time_pm_am">
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_delete" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

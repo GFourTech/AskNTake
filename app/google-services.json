@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288249725853",
+    "project_id": "askntakestudiotest"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288249725853:android:1caa13d5853b4215",
+        "android_client_info": {
+          "package_name": "com.askntake.admin.askntake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288249725853-8ev1rvu8hpo1ucnberfk4596gtfshr61.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "288249725853-q0uitmbfo31anjm1dgmo04n8tc2m4oh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.askntake.admin.askntake",
+            "certificate_hash": "9383d7f84bb8632f842d38be07939d89d911f034"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0a0aXJawQSyRuSqEkcEZL66hSuB6iJhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

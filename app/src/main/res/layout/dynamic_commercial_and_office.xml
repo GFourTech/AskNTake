@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/heading_text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commercial and Office Spaces:"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dip"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:id="@+id/available_from_dyn_comm_ofc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="value"
+        android:layout_marginLeft="10dip"
+        android:textSize="18sp" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/available_from_dyn_comm_ofc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Available From: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/available_from_dyn_comm_ofc_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_no_of_rooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="No.of rooms: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_no_of_rooms_vlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_total_sq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total Sq: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_total_sq_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Asking Price: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_price_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_price_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Asking Price: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/comm_and_ofc_price_type_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>-->
+
+</LinearLayout>

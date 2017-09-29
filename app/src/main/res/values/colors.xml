@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#29B6F6</color>
+    <color name="colorPrimaryDark">#29B6F6</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#bbe0ed</color>
+
+    <color name="gray">#aeaeae</color>
+    <color name="black">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="logo_blue">#008abd</color>
+    <color name="alpha_logo_color">#99008abd</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="logo_blue_transperent">#A6008abd</color>
+    <color name="logo_light_black">#454545</color>
+    <color name="red_validation">#ffffff</color>
+
+</resources>

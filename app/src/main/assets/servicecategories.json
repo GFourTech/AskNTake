@@ -1,0 +1,381 @@
+{
+  "categories": [
+    {
+      "name": "Choose Category",
+      "keyvalue": "",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Agents",
+      "keyvalue": "agents",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Matrimonial agents",
+          "keyvalue": "matrimonialagents",
+          "form": "0"
+        },
+        {
+          "name": "Travel agents",
+          "keyvalue": "travelagents",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Automobile and Electric services",
+      "keyvalue": "automobile&electricservices",
+      "subcategories": [
+      ]
+    },
+    {
+      "name": "Baby care",
+      "keyvalue": "babycare",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Baby sitting",
+          "keyvalue": "babysitting",
+          "form": "0"
+        },
+        {
+          "name": "Baby day cares",
+          "keyvalue": "babydaycares",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Dance & Music",
+      "keyvalue": "danceandmusic",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Indian classical dance/Music",
+          "keyvalue": "indianclassicaldance/music",
+          "form": "0"
+        },
+        {
+          "name": "Western dance/Music",
+          "keyvalue": "westerndance/music",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Education & Training/Tuitions",
+      "keyvalue": "educationandtraining/tution",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "1 – 12",
+          "keyvalue": "1-12",
+          "form": "0"
+        },
+        {
+          "name": "Career (Software & other) trainings",
+          "keyvalue": "career(software&other)trainings",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Event Planners",
+      "keyvalue": "eventplanners",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Wedding",
+          "keyvalue": "wedding",
+          "form": "0"
+        },
+        {
+          "name": "Birthdays and Baby showers",
+          "keyvalue": "birthdays&babyshowers",
+          "form": "0"
+        },
+        {
+          "name": "DJ’s",
+          "keyvalue": "dj's",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Events (Nearby)",
+      "keyvalue": "event(nearby)",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "1"
+        },
+        {
+          "name": "Cultural",
+          "keyvalue": "cultural",
+          "form": "1"
+        },
+        {
+          "name": "Sports",
+          "keyvalue": "sports",
+          "form": "1"
+        },
+        {
+          "name": "Social",
+          "keyvalue": "social",
+          "form": "1"
+        }
+      ]
+    },
+    {
+      "name": "Fashion & Beauty",
+      "keyvalue": "fashionandbeauty",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Hair and beauty salons",
+          "keyvalue": "hair&beautysalons",
+          "form": "0"
+        },
+        {
+          "name": "Clothing and stitching",
+          "keyvalue": "clothing&stitching",
+          "form": "0"
+        },
+        {
+          "name": "Jewelry",
+          "keyvalue": "jewelry",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Food",
+      "keyvalue": "food",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Homemade food",
+          "keyvalue": "homemadefood",
+          "form": "0"
+        },
+        {
+          "name": "Restaurants",
+          "keyvalue": "restaurants",
+          "form": "0"
+        },
+        {
+          "name": "Catering",
+          "keyvalue": "catering",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Professional Business services",
+      "keyvalue": "professionalbusinessservices",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Accountants (CA, Tax filing & Registration)",
+          "keyvalue": "accounting(ca,taxfilling&registration)",
+          "form": "0"
+        },
+        {
+          "name": "Attorneys (Lawyers)",
+          "keyvalue": "attorneys(lowers)",
+          "form": "0"
+        },
+        {
+          "name": "Insurance",
+          "keyvalue": "insurance",
+          "form": "0"
+        },
+        {
+          "name": "Finance",
+          "keyvalue": "finance",
+          "form": "0"
+        },
+        {
+          "name": "Realtor",
+          "keyvalue": "realtor",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Jobs",
+      "keyvalue": "jobs",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Admin",
+          "keyvalue": "admin",
+          "form": "0"
+        },
+        {
+          "name": "IT",
+          "keyvalue": "it",
+          "form": "0"
+        },
+        {
+          "name": "Non IT",
+          "keyvalue": "nonit",
+          "form": "0"
+        },
+        {
+          "name": "Management",
+          "keyvalue": "management",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Market Place",
+      "keyvalue": "marketplace",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Fancy items",
+          "keyvalue": "fancyitems",
+          "form": "0"
+        },
+        {
+          "name": "Florists",
+          "keyvalue": "florists",
+          "form": "0"
+        },
+        {
+          "name": "Groceries",
+          "keyvalue": "groceries",
+          "form": "0"
+        },
+        {
+          "name": "Meat Market",
+          "keyvalue": "meatmarket",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Religious",
+      "keyvalue": "religious",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "0"
+        },
+        {
+          "name": "Astrologers",
+          "keyvalue": "astrologers",
+          "form": "0"
+        },
+        {
+          "name": "Priests",
+          "keyvalue": "priests",
+          "form": "0"
+        }
+      ]
+    },
+    {
+      "name": "Professional Photography",
+      "keyvalue": "professionalphotography",
+      "subcategories": [
+      ]
+    },
+    {
+      "name": "Rentals",
+      "keyvalue": "rentals",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "2"
+        },
+        {
+          "name": "Single family Homes",
+          "keyvalue": "singlefamilyhomes",
+          "form": "2"
+        },
+        {
+          "name": "Room Sharing",
+          "keyvalue": "roomsharing",
+          "form": "3"
+        },
+        {
+          "name": "Commercial and office spaces",
+          "keyvalue": "commercial&officespaces",
+          "form": "4"
+        }
+      ]
+    },
+    {
+      "name": "Rides",
+      "keyvalue": "rides",
+      "subcategories": [
+        {
+          "name": "Choose Subcategory",
+          "keyvalue": "",
+          "form": "5"
+        },
+        {
+          "name": "One time rides",
+          "keyvalue": "onetimerides(free)only5days",
+          "form": "5"
+        },
+        {
+          "name": "Daily rides",
+          "keyvalue": "dailyrides",
+          "form": "0"
+        }
+      ]
+    }
+  ]
+}

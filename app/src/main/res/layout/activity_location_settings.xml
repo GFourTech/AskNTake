@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LocationSettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.askntake.admin.askntake.CustomAutoCompleteTextView
+        android:id="@+id/atv_places"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_corners_shape"
+        android:drawableRight="@drawable/ic_action_close"
+        android:hint="@string/str_atv_places"
+        android:imeOptions="actionDone"
+        android:inputType="textAutoComplete"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/location_buttons_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atv_places"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/button_my_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/alpha_logo_color"
+            android:drawableLeft="@drawable/ic_action_gps"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:text="@string/text_my_location"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_current_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_my_location"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/alpha_logo_color"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/text_curent_location"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/map_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/atv_places"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_corners_shape"
+        android:visibility="visible">
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_set_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@color/alpha_logo_color"
+        android:text="SET THIS LOCATION"
+        android:textColor="@color/white" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andoidsrc.popupmenu.MainActivity">
+
+    <item
+        android:id="@+id/set_defaults"
+        android:title="Default filters" />
+
+</menu>

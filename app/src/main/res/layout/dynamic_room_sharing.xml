@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading_text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="Room Sharing:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/available_from_dyn_room_sharing_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="value"
+        android:textSize="18sp" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/available_from_dyn_room_sharing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Available From: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/available_from_dyn_room_sharing_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/edit_room_sharing_dyn_accommodates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Accommodates: "
+            android:inputType="number"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/edit_room_sharing_dyn_accommodates_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/room_sharing_bedrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Bedrooms: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/room_sharing_bedrooms_vlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/room_sharing_bath_rooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Bathrooms: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/room_sharing_bath_rooms_vlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/gender_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Preferred Gender: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/gender_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Asking Price: "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/price_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_action_nav_home"
+            android:title="Browse" />
+        <!--<item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_action_camera"
+            android:title="Sell" />-->
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_action_nav_chat"
+            android:title="Chat" />
+        <!-- <item
+             android:id="@+id/nav_categories"
+             android:icon="@drawable/ic_action_nav_categories"
+             android:title="Search categories" />
+ -->
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_action_nav_my_profile"
+            android:title="My profile" />
+
+        <!--<item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_action_nav_favourites"
+            android:title="Favories" />
+-->
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_action_contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_action_help"
+            android:title="Help" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

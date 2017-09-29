@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_history_row_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal"
+
+     >
+
+    <ImageView
+        android:id="@+id/chat_product_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        />
+    
+    <TextView
+        android:id="@+id/navigation_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="10sp"
+        android:padding="3dip"
+        android:textColor="@color/white"
+        android:background="@drawable/circle_red" />
+
+    <LinearLayout
+        android:id="@+id/chat_history_row_lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chat_product_image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="Chatting"
+            android:textSize="20sp"
+            android:textStyle="normal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="product"
+            android:textSize="15sp"
+            android:textStyle="normal" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/last_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="Message"
+            android:textColor="@android:color/tertiary_text_light"
+            android:textSize="12sp" >
+        </TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/seperator"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@id/chat_product_image"
+        android:background="#999999" />
+
+</RelativeLayout>

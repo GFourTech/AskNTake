@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainrelative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_displying_screen"
+    tools:context="com.askntake.admin.askntake.ChatActivityServices">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:id="@+id/chatting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chatting to:"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <include
+        android:id="@+id/chat_product_header_include_in_chat_pge"
+        layout="@layout/chatwindow_product_layout"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_product_header_include_in_chat_pge">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dip"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText_message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_default"
+                android:focusableInTouchMode="true"
+                android:hint="@string/type_your_message_here_"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_custom"
+                android:onClick="onClick"
+                android:text="@string/send"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:scrollbars="none"
+            android:scrollingCache="false" />
+    </RelativeLayout>
+
+</RelativeLayout>

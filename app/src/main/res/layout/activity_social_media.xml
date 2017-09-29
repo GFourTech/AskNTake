@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/logo_blue">
+
+    <Button
+        android:id="@+id/finish_button"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@mipmap/closee" />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:drawableLeft="@drawable/com_facebook_button_icon"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:text="@string/loginwithfb" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/gmail_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fb_login_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="@string/loginwithgoogle" />
+
+    <LinearLayout
+        android:id="@+id/logo_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fb_login_button"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_main_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name_text"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="@string/start_listing_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/create_account_text"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gmail_login_button"
+        android:gravity="center"
+        android:text="@string/never_post_online_msg"
+        android:textColor="@color/white" />
+
+
+    <RelativeLayout
+        android:id="@+id/tv_login_signup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@color/white">
+
+        <View
+            android:id="@+id/center_temp_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white">
+
+        </View>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/center_temp_view"
+            android:background="@color/logo_blue"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/center_temp_view"
+            android:background="@color/logo_blue"
+            android:text="SIGNUP"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_terms_and_conditions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_login_signup_layout"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

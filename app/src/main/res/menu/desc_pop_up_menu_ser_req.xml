@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andoidsrc.popupmenu.MainActivity">
+
+    <item
+        android:id="@+id/desc_report"
+        android:title="Report this Service Request" />
+    <item
+        android:id="@+id/desc_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/desc_delete"
+        android:title="Delete" />
+</menu>

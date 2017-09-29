@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.andoidsrc.popupmenu.MainActivity" >
+
+    <item
+        android:id="@+id/terms_n_conditions"
+        android:title="Terms and Condtions"
+        />
+    <item
+        android:id="@+id/privacy_policy"
+        android:title="Privacy Policy"
+        />
+    <item
+        android:id="@+id/contact_us"
+        android:title="Contact Us"
+        />
+
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/single_family_la_available_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_single_family_available_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Available From"
+            android:inputType="date" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/single_family_la_bed_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_single_family_bedrooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bedrooms"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/single_family_la_bath_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_single_family_bath_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bath Rooms"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/single_family_la_total_sq_feet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/edit_single_family_total_sq_feet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Sq.ft"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/single_family_la_asking_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/edit_single_family_asking_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Asking Price"
+                android:inputType="numberDecimal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/single_family_spinner_price_type"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:entries="@array/doller_names" />
+    </LinearLayout>
+
+
+    <!-- <LinearLayout
+         android:id="@+id/map_linear_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@id/location_data_layout"
+         android:layout_marginTop="2dip"
+         android:layout_marginBottom="10dip"
+         android:visibility="visible">
+
+         <fragment
+             android:id="@+id/google_map"
+             class="com.google.android.gms.maps.MapFragment"
+             android:layout_width="match_parent"
+             android:layout_height="100dip"
+             android:layout_marginBottom="10dip"
+             android:layout_marginTop="3dip" />
+     </LinearLayout>-->
+
+</LinearLayout>
