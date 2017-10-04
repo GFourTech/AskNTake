@@ -62,8 +62,7 @@
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:hint="time"
-                    android:inputType="time"
-                    />
+                    android:inputType="time" />
             </android.support.design.widget.TextInputLayout>
 
             <Spinner

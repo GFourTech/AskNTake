@@ -213,15 +213,13 @@
     <string name="from_text">From</string>
     <string name="to_text">To</string>
     <string name="currency_type_text">Currency Type</string>
-
-
+    <string name="invoicereceipt">Invoice/Receipt</string>
+    <string name="negotiable">Negotiable</string>
+    <string name="shipping">Shipping</string>
     <string name="pricelowtohigh">Price low to high</string>
     <string name="pricehightolow">Price high to low</string>
     <string name="mostrecentpub">Most recently published</string>
     <string name="sortby">Sort By</string>
-    <string name="shipping">Shipping</string>
-    <string name="negotiable">Negotiable</string>
-    <string name="invoicereceipt">Invoice/Receipt</string>
     <string name="markedas">Marked as</string>
     <string name="all_categories">ALL</string>
     <string name="send">Send</string>
