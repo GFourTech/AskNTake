@@ -212,7 +212,7 @@ public class ServiceDescriptionActivity_Services extends AppCompatActivity imple
         custRevList = new ArrayList<CustomerReviewPojo>();
         handler = new Handler();
 
-        loadData();
+        loaddata();
 
         fb_data_pref = AppConstants.preferencesData(getApplication());
         its_my_own_product = getIntent().getBooleanExtra("myownproduct", false);
@@ -525,7 +525,7 @@ public class ServiceDescriptionActivity_Services extends AppCompatActivity imple
 
     }
 
-    private void loadData() {
+    private void loaddata() {
 
 //        for (int i = 1; i <= 5; i++) {
 

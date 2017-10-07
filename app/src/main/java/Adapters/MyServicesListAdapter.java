@@ -52,6 +52,8 @@ public class MyServicesListAdapter extends RecyclerView.Adapter<MyServicesListAd
                 add_edit.commit();*/
                 Intent myIntent = new Intent(mContext, ServiceDescriptionActivity_Services.class);
                 myIntent.putExtra("myownproduct", true);
+
+                String mmm=view.getTag().toString();
                 myIntent.putExtra("service_id", "" + albumList.get(Integer.parseInt(view.getTag().toString())).getService_id());
                 myIntent.putExtra("user_id", "" + UserId_Main);
                 mContext.startActivity(myIntent);

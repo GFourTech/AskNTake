@@ -62,7 +62,6 @@ public class MyServiceRequestsListAdapter extends RecyclerView.Adapter<MyService
 
     }
 
-
     public MyServiceRequestsListAdapter(Context mContext, List<ServiceRequestsPojo> albumList) {
         this.mContext = mContext;
         this.albumList = albumList;
@@ -82,10 +81,9 @@ public class MyServiceRequestsListAdapter extends RecyclerView.Adapter<MyService
 
         holder.item_name.setText(servreqItems.getService_name());
         Glide.with(mContext).load(/*AppConstants.IMG_BASE_URL +*/ servreqItems.getService_image()).into(holder.thumbnail);
-        //holder.thumbnail.setTag(position+"");
+        holder.thumbnail.setTag(position+"");
 
     }
-
 
     @Override
     public int getItemCount() {
