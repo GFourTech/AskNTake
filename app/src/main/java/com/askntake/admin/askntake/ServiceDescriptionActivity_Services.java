@@ -860,7 +860,7 @@ public class ServiceDescriptionActivity_Services extends AppCompatActivity imple
                     public boolean onMenuItemClick(MenuItem item) {
 
                         if (item.getTitle().toString().equalsIgnoreCase("Share")) {
-                            String shareBody = "Look what I just found on Ask-n-Take!\n" + item_name + "\n\n" + desc_text + "\n" + "http://www.askntake.com/";
+                            String shareBody = "Look what I just found on Ask-n-Take!\n" + service_name + "\n\n" + description + "\n" + "http://www.askntake.com/";
                             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                             sharingIntent.setType("text/plain");
                             sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");

@@ -23,8 +23,8 @@ public class AppConstants {
     public static final String GCM_SENDER_ID = "894894372333";
 
     //Local
-//    public static String BASE_URL = "http://10.0.0.22:8080/askntake/";
-//    public static final String IMG_BASE_URL = "http://10.0.0.22:8080/";
+//    public static String BASE_URL = "http://10.0.0.19:8080/askntake/";
+//    public static final String IMG_BASE_URL = "http://10.0.0.19:8080/";
 
 //    public static String BASE_URL = "http://192.168.1.20:8080/askntake/";
 //    public static final String IMG_BASE_URL = "http://192.168.1.20:8080/";

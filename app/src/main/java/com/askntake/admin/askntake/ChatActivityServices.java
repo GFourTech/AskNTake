@@ -59,7 +59,7 @@ public class ChatActivityServices extends AppCompatActivity {
     static String TAG = "GCM DEMO";
     String user_name;
     String userRegId;
-    String chattingToName, userIdTo, itemId, productImageUrl, ProductName;
+    String chattingToName, userIdTo, itemId, productImageUrl, ProductName,OwnerImageUrl;
 
     public static String UserIdFrom;
     String API_KEY = "AIzaSyCpc36pOMJA7k6cxihPk7tycbpqi2eODdM";
@@ -73,6 +73,7 @@ public class ChatActivityServices extends AppCompatActivity {
     String productOwnerId;
     String requestFrom, userMainId;
     boolean back_pressed;
+    ImageView image;
 
     TextView chatting_text;
 
@@ -91,6 +92,8 @@ public class ChatActivityServices extends AppCompatActivity {
 
         curScrenHeit = displaymetrics.heightPixels;
         curScrenWidth = displaymetrics.widthPixels;
+
+
         Bundle b = getIntent().getExtras();
 
         if (b != null) {
@@ -117,10 +120,11 @@ public class ChatActivityServices extends AppCompatActivity {
 
         SharedPreferences fbpref = AppConstants.preferencesData(getApplicationContext());
         userMainId = fbpref.getString(DataKeyValues.OWNER_ID, null);
+        OwnerImageUrl= fbpref.getString(DataKeyValues.USER_IMAGE, null);
 
         //send online status to server
 
-       // new SendOnlineStatusToServer(userMainId, true).execute();
+        // new SendOnlineStatusToServer(userMainId, true).execute();
 
 
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
@@ -131,7 +135,7 @@ public class ChatActivityServices extends AppCompatActivity {
         RelativeLayout.LayoutParams rlp = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, 121 * curScrenHeit / defaultScrenHeit);
         //RelativeLayout header=(RelativeLayout)findViewById(R.id.inner_header);
         //header.setLayoutParams(rlp);
-        ImageView image = (ImageView) findViewById(R.id.productImage);
+        image = (ImageView) findViewById(R.id.productImage);
         TextView productName = (TextView) findViewById(R.id.productName);
 
 //		productImageUrl="http://10.0.0.20:8080/askntake/serviceimages/1_service1498628254923.png";
@@ -579,16 +583,27 @@ public class ChatActivityServices extends AppCompatActivity {
                     public boolean onMenuItemClick(MenuItem item) {
 
 
-                        if (item.getTitle().toString().equalsIgnoreCase("Show profile picture") || item.getTitle().toString().equalsIgnoreCase("Show Product Image")) {
+                        if (item.getTitle().toString().equalsIgnoreCase("Show profile picture") || item.getTitle().toString().equalsIgnoreCase("Show Service Image")) {
                             if (showType.equalsIgnoreCase("product")) {
                                 showType = "profile";
-                                product_image_or_profile_img = "Show Product Image";
+                                product_image_or_profile_img = "Show Service Image";
+
+                                Picasso.with(getApplicationContext()).load(AppConstants.IMG_BASE_URL+OwnerImageUrl)
+                                        .resize(110, 100)
+                                        .placeholder(R.drawable.progress_animation)
+                                        .into(image);
+
                             } else {
                                 showType = "product";
                                 product_image_or_profile_img = "Show profile picture";
+                                Picasso.with(getApplicationContext()).load(productImageUrl)
+                                        .resize(110, 100)
+                                        .placeholder(R.drawable.progress_animation)
+                                        .into(image);
+
                             }
 
-                            /*if (!OwnerHistory.isEmpty()) {
+                           /* if (!OwnerHistory.isEmpty()) {
                                 chatLV.setVisibility(View.VISIBLE);
                                 chatAdapater = new ChatHistoryAdapter(ChatHistory.this, OwnerHistory, showType);
                                 chatLV.setAdapter(chatAdapater);
@@ -649,7 +664,7 @@ public class ChatActivityServices extends AppCompatActivity {
         private JSONObject getJSONObject() {
             JSONObject requestObject = null;
             try {
-                requestObject=new JSONObject();
+                requestObject = new JSONObject();
                 requestObject.accumulate("status", status);
                 requestObject.accumulate("userId", userMainId);
 

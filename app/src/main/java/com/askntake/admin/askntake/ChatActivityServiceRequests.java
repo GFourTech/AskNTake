@@ -164,62 +164,9 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
         productName.setText(ProductName);
 
 
-		/*ActionBar ab = getActionBar();
-            TextView tv = new TextView(getApplicationContext());
-		    LayoutParams lp = new RelativeLayout.LayoutParams(
-		            LayoutParams.MATCH_PARENT, // Width of TextView
-		            LayoutParams.WRAP_CONTENT);
-		    tv.setLayoutParams(lp);
-		    tv.setTextColor(Color.RED);
-		    ab.setCustomView(tv);*/
 
-        //getActionBar().setDisplayShowHomeEnabled(false);
-
-        ///int titleId = getResources().getIdentifier("action_bar_title", "id", "android");
-
-		/*ActionBar ab = getActionBar();
-
-		ImageView back_image=new ImageView(getApplicationContext());
-
-		LayoutParams lp = new RelativeLayout.LayoutParams(
-	                LayoutParams.WRAP_CONTENT, // Width of TextView
-	                LayoutParams.WRAP_CONTENT);
-		 lp.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
-
-		 back_image.setImageBitmap(BitmapFactory.decodeResource(getApplicationContext().getResources(),
-					R.drawable.back_button));
-		 back_image.setLayoutParams(lp);
-		 ab.setCustomView(back_image);
-		TextView tv = new TextView(getApplicationContext());
-		 lp = new RelativeLayout.LayoutParams(
-                LayoutParams.WRAP_CONTENT, // Width of TextView
-                LayoutParams.WRAP_CONTENT);
-		 lp.addRule(RelativeLayout.CENTER_HORIZONTAL);
-		 lp.addRule(RelativeLayout.CENTER_VERTICAL);
-
-		 //lp.addRule(RelativeLayout.RIGHT_OF,back_image.getId());
-		 tv.setBackgroundColor(Color.CYAN);
-
-		ab.setHomeButtonEnabled(true);
-		 ab.setDisplayHomeAsUpEnabled(true);
-
-		ab.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.logo_blue)));
-		Typeface typefont = Typeface.createFromAsset(getAssets(),"heading_font.ttf");
-			tv.setLayoutParams(lp);
-		 tv.setText(getResources().getString(R.string.app_name));
-		 tv.setTextColor(Color.WHITE);
-		 tv.setTypeface(typefont,Typeface.BOLD);
-		 tv.setTextSize(25);
-		 tv.setGravity(Gravity.CENTER);
-		 ab.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-
-
-		 ab.setCustomView(tv);*/
 
         Typeface typefont = Typeface.createFromAsset(getAssets(), "heading_font.ttf");
-        //getActionBar().setHomeButtonEnabled(false);
-        //getActionBar().setDisplayUseLogoEnabled(false);
-        //getActionBar().setDisplayShowTitleEnabled(false);
         View customView = getLayoutInflater().inflate(R.layout.activity_header_upload_page, null);
         action_bar_main_heading = (TextView) customView.findViewById(R.id.action_bar_main_heading);
         rlp = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT);
@@ -237,33 +184,6 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
         rlp.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
         back_button.setLayoutParams(rlp);
 
-        //getActionBar().setCustomView(customView);
-        //getActionBar().setDisplayOptions(/*ActionBar.DISPLAY_SHOW_TITLE | */ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME);
-
-        //View homeIcon = findViewById(android.R.id.home);
-        //((View) homeIcon.getParent()).setVisibility(View.GONE);
-
-        //	getActionBar().setDisplayShowCustomEnabled(true);
-
-        //ActionBar	actionbar=getActionBar();
-        //actionbar.setListenerForActionBarCustomView(customView);
-
-
-
-
-		/*rlp=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
-        rlp.addRule(RelativeLayout.RIGHT_OF,R.id.back_button);
-		rlp.addRule(RelativeLayout.CENTER_VERTICAL);
-		 action_bar_main_heading=(TextView)findViewById(R.id.action_bar_main_heading);
-		action_bar_main_heading.setLayoutParams(rlp);
-		action_bar_main_heading.setTextSize(15);*/
-        //action_bar_main_heading.setTypeface(typefont,Typeface.BOLD);
-
-		/*back_button=(ImageView)findViewById(R.id.back_button);
-        rlp=new RelativeLayout.LayoutParams(125*curScrenWidth/defaultScrenWidth,96*curScrenHeit/defaultScrenHeit);
-		rlp.addRule(RelativeLayout.CENTER_VERTICAL);
-		rlp.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
-		back_button.setLayoutParams(rlp);*/
 
         chat_product_header_include_in_chat_pge.setOnClickListener(new OnClickListener() {
 
@@ -331,8 +251,6 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
         chatLV.setStackFromBottom(true);
 
         chatting_text.setText("Chatting to : " + chattingToName);
-        //action_bar_main_heading.setText("Chatting to : " + chattingToName);
-        //getSupportActionBar().setTitle("Chatting to : " + chattingToName);
     }
 
 
@@ -341,7 +259,6 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
         edtMessage.clearFocus();
         edtMessage.setText("");
 
-        //hideKeyBoard(edtMessage);
 
     }
 
@@ -360,8 +277,6 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             Bundle b = intent.getExtras();
-            //String message = b.getString("message");
-            //String productId=b.getString("productId");
             new PopulateMessagesAsynchTask().execute();
         }
     };
@@ -393,17 +308,6 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
 
     }
 
-    /*private static String convertInputStreamToString(InputStream inputStream) throws IOException{
-        BufferedReader bufferedReader = new BufferedReader( new InputStreamReader(inputStream));
-        String line = "";
-        String result = "";
-        while((line = bufferedReader.readLine()) != null)
-            result += line;
-
-        inputStream.close();
-        return result;
-
-    }  */
     public synchronized void sendToDb(final String UserIdFrom, final String userIdTo, final String messageToSend, final String sendOrRecieve, final String serviceId) {
 
         if (messageToSend.length() > 0) {
@@ -554,15 +458,16 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
 
     }
 
-    @Override
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
 
         getMenuInflater().inflate(R.menu.chatting_menu, menu);
+        menu.setGroupVisible(R.menu.chatting_menu,false);
 
 
         return true;
-    }
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -574,9 +479,10 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
                 return true;
 
 
-            case R.id.show_popup_menu:
+           /* case R.id.show_popup_menu:
                 // showPopup();
                 View menuItemView = findViewById(R.id.show_popup_menu);
+                menuItemView.setVisibility(View.GONE);
                 PopupMenu popup = new PopupMenu(ChatActivityServiceRequests.this, menuItemView);
 
                 //PopupMenu popup = new PopupMenu(ServiceDescriptionActivity_Services.this, popup_icon);
@@ -597,14 +503,14 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
                                 product_image_or_profile_img = "Show profile picture";
                             }
 
-                            /*if (!OwnerHistory.isEmpty()) {
+                            *//*if (!OwnerHistory.isEmpty()) {
                                 chatLV.setVisibility(View.VISIBLE);
                                 chatAdapater = new ChatHistoryAdapter(ChatHistory.this, OwnerHistory, showType);
                                 chatLV.setAdapter(chatAdapater);
                             } else {
                                 chatLV.setVisibility(View.GONE);
                                 no_chat_layout.setVisibility(View.VISIBLE);
-                            }*/
+                            }*//*
 
 
                             //call adapter with images
@@ -620,7 +526,7 @@ public class ChatActivityServiceRequests extends AppCompatActivity {
                 });
 
                 popup.show();
-                return true;
+                return true;*/
 
 
         }
